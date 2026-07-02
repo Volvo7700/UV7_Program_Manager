@@ -1,0 +1,3102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button_apply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_ok.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="button_addToUserStartup.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_renderModeDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;checkBox_desktopCompositing.Name" xml:space="preserve">
+    <value>checkBox_desktopCompositing</value>
+  </data>
+  <data name="&gt;&gt;button_pre5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_topMost.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel_pre5.Name" xml:space="preserve">
+    <value>panel_pre5</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_pre3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="checkBox_taskbarIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panel_listViewOptions.Parent" xml:space="preserve">
+    <value>panel_optionsSelect</value>
+  </data>
+  <data name="radioButton_vs2.Text" xml:space="preserve">
+    <value>Window Classic, Border System</value>
+  </data>
+  <data name="label_warningTrayIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label_warningRenderMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_titleVisualStyle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_addToUserStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage_application.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_pre3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="&gt;&gt;button_reset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_pre4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 140</value>
+  </data>
+  <data name="&gt;&gt;tabPage_autostart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button_pre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_menu3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_reset.Name" xml:space="preserve">
+    <value>button_reset</value>
+  </data>
+  <data name="groupBox_visualStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 115</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_listView.Text" xml:space="preserve">
+    <value>List View</value>
+  </data>
+  <data name="label_warningPresets.Text" xml:space="preserve">
+    <value>Changes are made immediately!</value>
+  </data>
+  <data name="label_startupDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_imageDescription.Name" xml:space="preserve">
+    <value>label_imageDescription</value>
+  </data>
+  <data name="radioButton_listView.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_titleBackground.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;button_pre3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_restart.Name" xml:space="preserve">
+    <value>button_restart</value>
+  </data>
+  <data name="radioButton_vs0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="label_startupDescription.Text" xml:space="preserve">
+    <value>The application can be run automatically when the user logs on.
+
+This is achieved by creating a shortcut file in this user's startup folder.
+
+If you wish to run it automatically on startup, please click on "add entry".
+
+If you wish to not run it automatically anymore, please remove the shortcut in the startup directory.</value>
+  </data>
+  <data name="button_reset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkBox_whiteFont.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_changeColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="radioButton_font1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_ok.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label_pre5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_pre3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_layoutDescription.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel_tColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_pre2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label_titleVisualStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="menuStrip_pre2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 0, 0</value>
+  </data>
+  <data name="menuStrip_pre4.Text" xml:space="preserve">
+    <value>menuStrip3</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_pre4.Text" xml:space="preserve">
+    <value>Aero Dark</value>
+  </data>
+  <data name="panel_pre5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 170</value>
+  </data>
+  <data name="label_titlePreset.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label_imageDescription.Text" xml:space="preserve">
+    <value>The background image is stored in a file in the application's folder.
+You can change the image either by selecting a new one here or by replacing the file manually.
+
+file name: background (without extension)</value>
+  </data>
+  <data name="button_cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBox_startupLayout.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="groupBox_menuBarStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 115</value>
+  </data>
+  <data name="button_addToUserStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 150</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="label_pre1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_langDE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 17</value>
+  </data>
+  <data name="radioButton_menu1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="groupBox_menuBarStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="panel_mdiOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuStrip_pre5.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="button_ok.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="checkBox_desktopCompositing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 36</value>
+  </data>
+  <data name="radioButton_vs3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 91</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_trayIconColor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 18</value>
+  </data>
+  <data name="&gt;&gt;label_warningFont.Name" xml:space="preserve">
+    <value>label_warningFont</value>
+  </data>
+  <data name="menuStrip_pre4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;label_pre1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_mdi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="checkBox_taskbarIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 30</value>
+  </data>
+  <data name="radioButton_menu0.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="panel_optionsSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button_openGlobalStartup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_background.Name" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="groupBox_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 243</value>
+  </data>
+  <data name="&gt;&gt;button_addToUserStartup.Name" xml:space="preserve">
+    <value>button_addToUserStartup</value>
+  </data>
+  <data name="button_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 365</value>
+  </data>
+  <data name="radioButton_menu2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_pre5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label_warningPresets.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;label_renderModeDescription.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="button_changeColor.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="button_cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="comboBox_imageLayout.Items1" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiBackground.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_listView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 7</value>
+  </data>
+  <data name="panel_listViewOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 266</value>
+  </data>
+  <data name="button_pre5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiWindowLayout.Parent" xml:space="preserve">
+    <value>panel_mdiOptions</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mdi.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="&gt;&gt;button_pre4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_optionsSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 63</value>
+  </data>
+  <data name="label_titleVisualStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 24</value>
+  </data>
+  <data name="menuStrip_pre2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox_menuBarStyle.Text" xml:space="preserve">
+    <value>Menu Bar Style</value>
+  </data>
+  <data name="&gt;&gt;tabPage_presets.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox_visualStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="radioButton_font3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label_pre5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_listView.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_preferences</value>
+  </data>
+  <data name="checkBox_whiteFont.Text" xml:space="preserve">
+    <value>Use white text color
+(Useful for dark backgrounds)</value>
+  </data>
+  <data name="&gt;&gt;label_titleBackground.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="button_restart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 365</value>
+  </data>
+  <data name="radioButton_vs0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="label_titlePreset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;label_startupDescription.Parent" xml:space="preserve">
+    <value>tabPage_autostart</value>
+  </data>
+  <data name="checkBox_desktopCompositing.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="menuStrip_pre1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconColor.Name" xml:space="preserve">
+    <value>label_trayIconColor</value>
+  </data>
+  <data name="&gt;&gt;checkBox_whiteFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_imageLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 82</value>
+  </data>
+  <data name="button_apply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="checkBox_programGroupsApplyColor.Text" xml:space="preserve">
+    <value>Apply main background to Program Groups</value>
+  </data>
+  <data name="label_warningFont.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button_openUserStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_imageLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_desktopCompositing.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="radioButton_langDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;panel_listViewOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_programGroupsTransparent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 43</value>
+  </data>
+  <data name="checkBox_topMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="tabPage_application.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="menuStrip_pre4.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="checkBox_taskbarIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 78</value>
+  </data>
+  <data name="radioButton_vs1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="radioButton_vs1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="&gt;&gt;button_restart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_renderModeDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_pre5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel_mdiOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showBackgroundImage.Name" xml:space="preserve">
+    <value>checkBox_showBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;label_titleMenu.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;button_openGlobalStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage_presets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 314</value>
+  </data>
+  <data name="panel_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="&gt;&gt;label_pre1.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;tabPage_presets.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;button_changeTColor.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="tabPage_autostart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 314</value>
+  </data>
+  <data name="label_layout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_autostart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="groupBox_mdiWindowLayout.Text" xml:space="preserve">
+    <value>Window Layout</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_warningPresets.Name" xml:space="preserve">
+    <value>label_warningPresets</value>
+  </data>
+  <data name="&gt;&gt;groupBox_background.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="checkBox_taskbarIcon.Text" xml:space="preserve">
+    <value>Enable Taskbar Tray Notify Icon</value>
+  </data>
+  <data name="button_pre5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel_listViewOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_color.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_menu2.Text" xml:space="preserve">
+    <value>Aero Black</value>
+  </data>
+  <data name="radioButton_langDefault.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="groupBox_visualStyle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="button_apply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 365</value>
+  </data>
+  <data name="label_titleMenu.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_titleBackground.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_optionsSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 239</value>
+  </data>
+  <data name="checkBox_desktopCompositing.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox_language.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font0.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_warningFont.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsTransparent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_menu3.Text" xml:space="preserve">
+    <value>Aero Blue</value>
+  </data>
+  <data name="menuStrip_pre5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 57</value>
+  </data>
+  <data name="tabPage_autostart.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_menuBarStyle.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="comboBox_startupLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="label_pre1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 55</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconDescription.Name" xml:space="preserve">
+    <value>label_trayIconDescription</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="radioButton_menu1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs3.Name" xml:space="preserve">
+    <value>radioButton_vs3</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;button_addToUserStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButton_langDE.Text" xml:space="preserve">
+    <value>German / Deutsch</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="button_changeImage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="menuStrip_pre5.Text" xml:space="preserve">
+    <value>menuStrip4</value>
+  </data>
+  <data name="menuStrip_pre3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 65</value>
+  </data>
+  <data name="menuStrip_pre3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;panel_listViewOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_mdi.Text" xml:space="preserve">
+    <value>MDI</value>
+  </data>
+  <data name="label_layoutDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 31</value>
+  </data>
+  <data name="radioButton_font1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 41</value>
+  </data>
+  <data name="&gt;&gt;panel_pre1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_pre3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_mdiOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 368</value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiWindowLayout.Name" xml:space="preserve">
+    <value>groupBox_mdiWindowLayout</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="button_changeTColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="comboBox_imageLayout.Items3" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_pre3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="radioButton_menu1.Text" xml:space="preserve">
+    <value>Aero</value>
+  </data>
+  <data name="radioButton_font2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="label_pre2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_reset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel_tColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 160</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_changeImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_font.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="button_pre1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="groupBox_mdiBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="button_restart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label_warningFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_titleBackground.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu0.Name" xml:space="preserve">
+    <value>radioButton_menu0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_renderModeDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 49</value>
+  </data>
+  <data name="button_openUserStartup.Text" xml:space="preserve">
+    <value>Open this user's startup folder</value>
+  </data>
+  <data name="label_imageDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 117</value>
+  </data>
+  <data name="button_reset.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="radioButton_font1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radioButton_menu2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="checkBox_taskbarIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip_pre2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 35</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_pre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage_autostart.Text" xml:space="preserve">
+    <value>Run on logon</value>
+  </data>
+  <data name="radioButton_vs2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_pre4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_pre4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiBackground.Name" xml:space="preserve">
+    <value>groupBox_mdiBackground</value>
+  </data>
+  <data name="&gt;&gt;checkBox_topMost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip_pre3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <data name="checkBox_whiteFont.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_addToUserStartup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_topMost.Name" xml:space="preserve">
+    <value>checkBox_topMost</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="radioButton_menu3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="menuStrip_pre1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button_apply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="label_titleMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="button_reset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 365</value>
+  </data>
+  <data name="groupBox_topMost.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="groupBox_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 67</value>
+  </data>
+  <data name="comboBox_imageLayout.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="panel_tColor.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label_imageDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_workspace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="&gt;&gt;button_apply.Name" xml:space="preserve">
+    <value>button_apply</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre4.Name" xml:space="preserve">
+    <value>menuStrip_pre4</value>
+  </data>
+  <data name="radioButton_menu0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="button_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="panel_mdiOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label_layoutDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs0.Name" xml:space="preserve">
+    <value>radioButton_vs0</value>
+  </data>
+  <data name="label_renderMode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="label_renderModeDescription.Text" xml:space="preserve">
+    <value>MDI: One Window for each Program Group
+
+List View: One List, Group for each Program Group</value>
+  </data>
+  <data name="button_cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="label_startupDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="panel_pre4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 140</value>
+  </data>
+  <data name="&gt;&gt;button_openGlobalStartup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage_presets.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="radioButton_menu1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="radioButton_font0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu0.Parent" xml:space="preserve">
+    <value>groupBox_menuBarStyle</value>
+  </data>
+  <data name="&gt;&gt;label_titleBackground.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs1.Name" xml:space="preserve">
+    <value>radioButton_vs1</value>
+  </data>
+  <data name="label_titleMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="radioButton_menu0.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="checkBox_programGroupsApplyColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage_autostart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="radioButton_vs1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="radioButton_mdi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 7</value>
+  </data>
+  <data name="&gt;&gt;label_imageDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_programGroupsTransparent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 59</value>
+  </data>
+  <data name="&gt;&gt;tabPage_application.Name" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="label_pre3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label_warningFont.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button_changeTColor.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_tColor.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="&gt;&gt;tabPage_trayIcon.Name" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="groupBox_mdiBackground.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="radioButton_vs1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panel_tColor.Name" xml:space="preserve">
+    <value>panel_tColor</value>
+  </data>
+  <data name="groupBox_font.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="tabPage_presets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="button_changeColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_vs3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre1.Name" xml:space="preserve">
+    <value>menuStrip_pre1</value>
+  </data>
+  <data name="menuStrip_pre3.Text" xml:space="preserve">
+    <value>menuStrip2</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_mdiOptions.Parent" xml:space="preserve">
+    <value>panel_optionsSelect</value>
+  </data>
+  <data name="label_warningPresets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 224</value>
+  </data>
+  <data name="button_changeImage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radioButton_vs1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_topMost.Text" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="&gt;&gt;label_titleVisualStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_optionsSelect.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel_listViewOptions.Name" xml:space="preserve">
+    <value>panel_listViewOptions</value>
+  </data>
+  <data name="label_pre4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 145</value>
+  </data>
+  <data name="button_pre3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_warningFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 40</value>
+  </data>
+  <data name="panel_pre1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 50</value>
+  </data>
+  <data name="&gt;&gt;button_openUserStartup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_pre1.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="button_pre5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;button_apply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel_pre5.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="tabPage_trayIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="groupBox_visualStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre3.Name" xml:space="preserve">
+    <value>menuStrip_pre3</value>
+  </data>
+  <data name="label_trayIconDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="checkBox_topMost.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;panel_pre2.Name" xml:space="preserve">
+    <value>panel_pre2</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 127</value>
+  </data>
+  <data name="menuStrip_pre4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button_restart.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="radioButton_vs2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_titleMenu.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIcon.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox_background.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsApplyColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_langDefault.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip_pre3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label_titlePreset.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="groupBox_background.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="comboBox_imageLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label_warningRenderMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 214</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>472, 400</value>
+  </data>
+  <data name="label_titleBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 24</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="button_openGlobalStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel_pre1.Name" xml:space="preserve">
+    <value>panel_pre1</value>
+  </data>
+  <data name="&gt;&gt;label_renderMode.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 152</value>
+  </data>
+  <data name="radioButton_vs0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>DWM Rendering</value>
+  </data>
+  <data name="label_pre1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="&gt;&gt;label_startupDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_changeImage.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="&gt;&gt;label_renderModeDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage_presets.Text" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="&gt;&gt;panel_mdiOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_pre2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_layout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox_font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 127</value>
+  </data>
+  <data name="&gt;&gt;groupBox_language.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="&gt;&gt;panel_pre1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label_warningTrayIcon.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="menuStrip_pre5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage_application.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;button_ok.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Name" xml:space="preserve">
+    <value>button_cancel</value>
+  </data>
+  <data name="&gt;&gt;button_changeImage.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="&gt;&gt;button_openUserStartup.Parent" xml:space="preserve">
+    <value>tabPage_autostart</value>
+  </data>
+  <data name="&gt;&gt;button_changeImage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_layout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_menuBarStyle.Name" xml:space="preserve">
+    <value>groupBox_menuBarStyle</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_openUserStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 23</value>
+  </data>
+  <data name="groupBox_mdiWindowLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;label_layoutDescription.Name" xml:space="preserve">
+    <value>label_layoutDescription</value>
+  </data>
+  <data name="button_changeTColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage_trayIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 314</value>
+  </data>
+  <data name="radioButton_vs1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button_openUserStartup.Name" xml:space="preserve">
+    <value>button_openUserStartup</value>
+  </data>
+  <data name="&gt;&gt;panel_pre3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_tColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="menuStrip_pre1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="label_imageDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 100</value>
+  </data>
+  <data name="radioButton_font2.Text" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mdi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_changeTColor.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="&gt;&gt;comboBox_imageLayout.Name" xml:space="preserve">
+    <value>comboBox_imageLayout</value>
+  </data>
+  <data name="panel_color.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label_warningRenderMode.Text" xml:space="preserve">
+    <value>Immediate Restart after Change required</value>
+  </data>
+  <data name="&gt;&gt;button_changeImage.Name" xml:space="preserve">
+    <value>button_changeImage</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre5.Name" xml:space="preserve">
+    <value>menuStrip_pre5</value>
+  </data>
+  <data name="&gt;&gt;button_apply.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_warningFont.Text" xml:space="preserve">
+    <value>Red Groups: Changes are applied after restart</value>
+  </data>
+  <data name="label_layout.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBox_desktopCompositing.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox_topMost.Name" xml:space="preserve">
+    <value>groupBox_topMost</value>
+  </data>
+  <data name="&gt;&gt;button_openUserStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip_pre2.Text" xml:space="preserve">
+    <value>menuStrip2</value>
+  </data>
+  <data name="&gt;&gt;button_pre1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label_warningPresets.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;button_openGlobalStartup.Name" xml:space="preserve">
+    <value>button_openGlobalStartup</value>
+  </data>
+  <data name="&gt;&gt;label_renderMode.Name" xml:space="preserve">
+    <value>label_renderMode</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconDescription.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_apply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;panel_pre4.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;button_restart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_pre3.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="groupBox_background.Text" xml:space="preserve">
+    <value>Workspace Appearance</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="button_changeTColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 160</value>
+  </data>
+  <data name="radioButton_font1.Text" xml:space="preserve">
+    <value>Microsoft Sans Serif</value>
+  </data>
+  <data name="&gt;&gt;label_pre2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button_changeTColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font0.Name" xml:space="preserve">
+    <value>radioButton_font0</value>
+  </data>
+  <data name="panel_pre1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="button_openGlobalStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 200</value>
+  </data>
+  <data name="&gt;&gt;button_changeImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_warningRenderMode.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="&gt;&gt;panel_pre1.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="radioButton_font0.Text" xml:space="preserve">
+    <value>Tahoma</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="label_titleMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="menuStrip_pre1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button_changeImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="tabPage_application.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 314</value>
+  </data>
+  <data name="&gt;&gt;button_pre4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label_pre5.Name" xml:space="preserve">
+    <value>label_pre5</value>
+  </data>
+  <data name="label_layout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel_color.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="label_renderMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu2.Name" xml:space="preserve">
+    <value>radioButton_menu2</value>
+  </data>
+  <data name="button_restart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_layout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_font3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_pre5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 170</value>
+  </data>
+  <data name="button_addToUserStartup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_pre4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_warningTrayIcon.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs2.Parent" xml:space="preserve">
+    <value>groupBox_visualStyle</value>
+  </data>
+  <data name="&gt;&gt;button_ok.Name" xml:space="preserve">
+    <value>button_ok</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDefault.Name" xml:space="preserve">
+    <value>radioButton_langDefault</value>
+  </data>
+  <data name="&gt;&gt;groupBox_topMost.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_pre4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_warningPresets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_imageDescription.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_pre2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs3.Parent" xml:space="preserve">
+    <value>groupBox_visualStyle</value>
+  </data>
+  <data name="label_titleMenu.Text" xml:space="preserve">
+    <value>Menu Bar Style</value>
+  </data>
+  <data name="&gt;&gt;tabPage_autostart.Name" xml:space="preserve">
+    <value>tabPage_autostart</value>
+  </data>
+  <data name="&gt;&gt;panel_optionsSelect.Name" xml:space="preserve">
+    <value>panel_optionsSelect</value>
+  </data>
+  <data name="&gt;&gt;tabPage_application.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_changeImage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox_mdiBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 145</value>
+  </data>
+  <data name="label_pre3.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;label_pre4.Name" xml:space="preserve">
+    <value>label_pre4</value>
+  </data>
+  <data name="&gt;&gt;button_changeColor.Name" xml:space="preserve">
+    <value>button_changeColor</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_pre1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_ok.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="radioButton_menu2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font2.Parent" xml:space="preserve">
+    <value>groupBox_font</value>
+  </data>
+  <data name="&gt;&gt;button_pre5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label_pre3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 115</value>
+  </data>
+  <data name="checkBox_whiteFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="checkBox_topMost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;label_layout.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="radioButton_menu2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs0.Parent" xml:space="preserve">
+    <value>groupBox_visualStyle</value>
+  </data>
+  <data name="&gt;&gt;label_pre5.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="tabPage_trayIcon.Text" xml:space="preserve">
+    <value>Taskbar Icon</value>
+  </data>
+  <data name="label_warningPresets.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label_pre3.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_pre5.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label_pre2.Name" xml:space="preserve">
+    <value>label_pre2</value>
+  </data>
+  <data name="openFileDialog.Title" xml:space="preserve">
+    <value>Background Image Selection</value>
+  </data>
+  <data name="&gt;&gt;button_pre2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="radioButton_font1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIconShutdown.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="&gt;&gt;label_color.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="panel_pre5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_menu1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="radioButton_vs0.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_pre4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_pre4.Name" xml:space="preserve">
+    <value>panel_pre4</value>
+  </data>
+  <data name="label_startupDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_menu3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 92</value>
+  </data>
+  <data name="comboBox_imageLayout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="radioButton_mdi.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label_trayIconColor.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;comboBox_startupLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage_presets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_pre4.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="label_pre3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_pre1.Name" xml:space="preserve">
+    <value>button_pre1</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;button_pre3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="radioButton_font0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="label_titleVisualStyle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="radioButton_vs0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="radioButton_menu2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="tabPage_workspace.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage_presets.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radioButton_font3.Text" xml:space="preserve">
+    <value>Segoe UI Large</value>
+  </data>
+  <data name="&gt;&gt;radioButton_listView.Name" xml:space="preserve">
+    <value>radioButton_listView</value>
+  </data>
+  <data name="button_pre2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="panel_pre4.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="radioButton_vs1.Text" xml:space="preserve">
+    <value>Window System, Border Classic</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiBackground.Parent" xml:space="preserve">
+    <value>panel_mdiOptions</value>
+  </data>
+  <data name="button_pre4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;label_warningPresets.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_startupDescription.Name" xml:space="preserve">
+    <value>label_startupDescription</value>
+  </data>
+  <data name="&gt;&gt;tabPage_trayIcon.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="panel_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu1.Name" xml:space="preserve">
+    <value>radioButton_menu1</value>
+  </data>
+  <data name="button_changeImage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="button_restart.Text" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="&gt;&gt;label_renderModeDescription.Name" xml:space="preserve">
+    <value>label_renderModeDescription</value>
+  </data>
+  <data name="panel_pre3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;label_imageDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_ok.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 365</value>
+  </data>
+  <data name="panel_pre2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;panel_pre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_menu0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="menuStrip_pre1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="button_restart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="menuStrip_pre4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 95</value>
+  </data>
+  <data name="groupBox_font.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="tabPage_workspace.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;label_pre1.Name" xml:space="preserve">
+    <value>label_pre1</value>
+  </data>
+  <data name="label_titleBackground.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_ok.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_color.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_pre1.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;label_titleVisualStyle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_color.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="tabPage_workspace.Text" xml:space="preserve">
+    <value>Workspace</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_ok.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel_mdiOptions.Name" xml:space="preserve">
+    <value>panel_mdiOptions</value>
+  </data>
+  <data name="menuStrip_pre2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <data name="radioButton_vs2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 67</value>
+  </data>
+  <data name="panel_listViewOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panel_tColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="button_apply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBox_imageLayout.Items4" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;comboBox_imageLayout.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_pre1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label_trayIconDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="label_warningPresets.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_titleVisualStyle.Text" xml:space="preserve">
+    <value>Visual Style</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsTransparent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_font2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs1.Parent" xml:space="preserve">
+    <value>groupBox_visualStyle</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsTransparent.Parent" xml:space="preserve">
+    <value>groupBox_mdiBackground</value>
+  </data>
+  <data name="checkBox_whiteFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 30</value>
+  </data>
+  <data name="&gt;&gt;groupBox_visualStyle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label_titleVisualStyle.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="label_pre5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label_titleVisualStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label_trayIconColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 160</value>
+  </data>
+  <data name="radioButton_menu1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>478, 300</value>
+  </data>
+  <data name="checkBox_programGroupsApplyColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font1.Parent" xml:space="preserve">
+    <value>groupBox_font</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mdi.Name" xml:space="preserve">
+    <value>radioButton_mdi</value>
+  </data>
+  <data name="label_pre4.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;button_ok.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_programGroupsApplyColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 33</value>
+  </data>
+  <data name="radioButton_font3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 89</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font2.Name" xml:space="preserve">
+    <value>radioButton_font2</value>
+  </data>
+  <data name="label_layoutDescription.Text" xml:space="preserve">
+    <value>On startup, layout program groups with following layout:</value>
+  </data>
+  <data name="&gt;&gt;label_renderMode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox_font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 119</value>
+  </data>
+  <data name="button_openUserStartup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="radioButton_font0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_pre2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 80</value>
+  </data>
+  <data name="label_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="radioButton_menu3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsApplyColor.Name" xml:space="preserve">
+    <value>checkBox_programGroupsApplyColor</value>
+  </data>
+  <data name="&gt;&gt;button_changeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_pre3.Text" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="radioButton_vs3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label_warningFont.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="label_renderMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="checkBox_whiteFont.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButton_vs3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="menuStrip_pre1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 0, 0</value>
+  </data>
+  <data name="button_changeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button_reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="label_layoutDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label_titleMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button_pre3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 110</value>
+  </data>
+  <data name="radioButton_font3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBox_topMost.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDE.Name" xml:space="preserve">
+    <value>radioButton_langDE</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDefault.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_pre3.Name" xml:space="preserve">
+    <value>button_pre3</value>
+  </data>
+  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_reset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="panel_listViewOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 10</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="radioButton_mdi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox_visualStyle.Text" xml:space="preserve">
+    <value>Visual Style</value>
+  </data>
+  <data name="menuStrip_pre4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_pre5.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="button_pre4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_workspace.Name" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="&gt;&gt;label_titlePreset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_desktopCompositing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="panel_pre1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="button_addToUserStartup.Text" xml:space="preserve">
+    <value>Add entry for this user</value>
+  </data>
+  <data name="label_color.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_font.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="label_trayIconDescription.Text" xml:space="preserve">
+    <value>The application can add a notify icon to the taskbar. From this icon, you have quick access over all Program Groups and Programs in a dropdown menu. </value>
+  </data>
+  <data name="&gt;&gt;label_trayIconColor.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_pre4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="checkBox_topMost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_renderModeDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 31</value>
+  </data>
+  <data name="panel_mdiOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.Text" xml:space="preserve">
+    <value>Show Image</value>
+  </data>
+  <data name="&gt;&gt;label_renderMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_layout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="button_changeColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;button_pre2.Name" xml:space="preserve">
+    <value>button_pre2</value>
+  </data>
+  <data name="button_openGlobalStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 23</value>
+  </data>
+  <data name="menuStrip_pre3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs2.Name" xml:space="preserve">
+    <value>radioButton_vs2</value>
+  </data>
+  <data name="checkBox_programGroupsTransparent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mdi.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel_pre3.Name" xml:space="preserve">
+    <value>panel_pre3</value>
+  </data>
+  <data name="checkBox_programGroupsApplyColor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox_background.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="&gt;&gt;label_titleVisualStyle.Name" xml:space="preserve">
+    <value>label_titleVisualStyle</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIcon.Name" xml:space="preserve">
+    <value>checkBox_taskbarIcon</value>
+  </data>
+  <data name="&gt;&gt;panel_mdiOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_restart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="checkBox_programGroupsTransparent.Text" xml:space="preserve">
+    <value>Ignore background color
+make Program Groups
+transparent instead</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsApplyColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPage_workspace.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font1.Name" xml:space="preserve">
+    <value>radioButton_font1</value>
+  </data>
+  <data name="button_openUserStartup.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;button_pre5.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;groupBox_visualStyle.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="groupBox_topMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 47</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiWindowLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="menuStrip_pre5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 0, 0</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="radioButton_langDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 17</value>
+  </data>
+  <data name="&gt;&gt;comboBox_imageLayout.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="&gt;&gt;checkBox_desktopCompositing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_reset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_listView.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="tabPage_autostart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_whiteFont.Name" xml:space="preserve">
+    <value>checkBox_whiteFont</value>
+  </data>
+  <data name="&gt;&gt;button_pre4.Name" xml:space="preserve">
+    <value>button_pre4</value>
+  </data>
+  <data name="comboBox_imageLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="label_warningRenderMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 31</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiBackground.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_presets.Name" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="button_changeImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 54</value>
+  </data>
+  <data name="&gt;&gt;button_changeColor.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabPage_application.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_topMost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 190</value>
+  </data>
+  <data name="button_ok.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="panel_listViewOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPage_application.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="label_pre5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_pre1.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="label_trayIconColor.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showBackgroundImage.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="radioButton_langDE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 31</value>
+  </data>
+  <data name="label_warningRenderMode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_titleBackground.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_pre5.Text" xml:space="preserve">
+    <value>Classic</value>
+  </data>
+  <data name="button_reset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;button_changeTColor.Name" xml:space="preserve">
+    <value>button_changeTColor</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="&gt;&gt;panel_tColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox_programGroupsTransparent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu1.Parent" xml:space="preserve">
+    <value>groupBox_menuBarStyle</value>
+  </data>
+  <data name="&gt;&gt;label_color.Name" xml:space="preserve">
+    <value>label_color</value>
+  </data>
+  <data name="panel_pre2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 80</value>
+  </data>
+  <data name="&gt;&gt;groupBox_mdiWindowLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconColor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox_startupLayout.Items1" xml:space="preserve">
+    <value>Tile Vertical</value>
+  </data>
+  <data name="comboBox_startupLayout.Items2" xml:space="preserve">
+    <value>Tile Horizontal</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_vs2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="label_pre2.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="checkBox_desktopCompositing.Text" xml:space="preserve">
+    <value>Disable Desktop Compositing /
+Use Windows Basic Theme</value>
+  </data>
+  <data name="&gt;&gt;label_warningRenderMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label_renderMode.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label_titlePreset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="button_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="&gt;&gt;label_warningTrayIcon.Name" xml:space="preserve">
+    <value>label_warningTrayIcon</value>
+  </data>
+  <data name="comboBox_imageLayout.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabPage_trayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_autostart.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="label_renderMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 17</value>
+  </data>
+  <data name="label_warningTrayIcon.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_pre3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_restart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_taskbarIcon.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;groupBox_font.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.Text" xml:space="preserve">
+    <value>Show Shutdown Icon</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIconShutdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 57</value>
+  </data>
+  <data name="panel_pre2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panel_pre4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="radioButton_font0.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="tabPage_workspace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;label_warningRenderMode.Name" xml:space="preserve">
+    <value>label_warningRenderMode</value>
+  </data>
+  <data name="&gt;&gt;panel_pre2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label_warningFont.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_openGlobalStartup.Parent" xml:space="preserve">
+    <value>tabPage_autostart</value>
+  </data>
+  <data name="label_warningTrayIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 40</value>
+  </data>
+  <data name="radioButton_font2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="button_openGlobalStartup.Text" xml:space="preserve">
+    <value>For Admins: Open all user's startup folder</value>
+  </data>
+  <data name="&gt;&gt;tabPage_trayIcon.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_whiteFont.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuStrip_pre2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu3.Name" xml:space="preserve">
+    <value>radioButton_menu3</value>
+  </data>
+  <data name="&gt;&gt;panel_pre3.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;radioButton_listView.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;checkBox_topMost.Parent" xml:space="preserve">
+    <value>groupBox_topMost</value>
+  </data>
+  <data name="radioButton_vs3.Text" xml:space="preserve">
+    <value>All Classic</value>
+  </data>
+  <data name="&gt;&gt;label_layoutDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_listView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="&gt;&gt;groupBox_font.Name" xml:space="preserve">
+    <value>groupBox_font</value>
+  </data>
+  <data name="radioButton_langDE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_font1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;panel_optionsSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_reset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;label_titlePreset.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="label_layout.Text" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="tabPage_trayIcon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="menuStrip_pre3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label_layoutDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_whiteFont.Parent" xml:space="preserve">
+    <value>groupBox_mdiBackground</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_topMost.Text" xml:space="preserve">
+    <value>Show as top most</value>
+  </data>
+  <data name="radioButton_menu2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 214</value>
+  </data>
+  <data name="menuStrip_pre2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radioButton_menu0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox_background.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre2.Name" xml:space="preserve">
+    <value>menuStrip_pre2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_desktopCompositing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox_menuBarStyle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_trayIconColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_warningTrayIcon.Text" xml:space="preserve">
+    <value>Activation/Deactivation is applied after restart</value>
+  </data>
+  <data name="&gt;&gt;comboBox_startupLayout.Name" xml:space="preserve">
+    <value>comboBox_startupLayout</value>
+  </data>
+  <data name="button_openUserStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 150</value>
+  </data>
+  <data name="&gt;&gt;button_pre2.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="radioButton_menu3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="comboBox_startupLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 51</value>
+  </data>
+  <data name="radioButton_vs0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="label_pre1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_restart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_addToUserStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_layout.Name" xml:space="preserve">
+    <value>label_layout</value>
+  </data>
+  <data name="&gt;&gt;groupBox_language.Name" xml:space="preserve">
+    <value>groupBox_language</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_warningRenderMode.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;panel_pre5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_titlePreset.Text" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="label_warningPresets.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="button_pre2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="radioButton_vs3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_menu0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_font0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="&gt;&gt;panel_pre2.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="button_pre5.Text" xml:space="preserve">
+    <value>Classic</value>
+  </data>
+  <data name="&gt;&gt;button_changeColor.Parent" xml:space="preserve">
+    <value>groupBox_background</value>
+  </data>
+  <data name="groupBox_background.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 220</value>
+  </data>
+  <data name="label_trayIconColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsApplyColor.Parent" xml:space="preserve">
+    <value>groupBox_mdiBackground</value>
+  </data>
+  <data name="label_imageDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tabPage_workspace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 314</value>
+  </data>
+  <data name="groupBox_mdiWindowLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 85</value>
+  </data>
+  <data name="button_apply.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIcon.Parent" xml:space="preserve">
+    <value>tabPage_trayIcon</value>
+  </data>
+  <data name="&gt;&gt;comboBox_startupLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialog_taskbarIcon.Name" xml:space="preserve">
+    <value>colorDialog_taskbarIcon</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_trayIconColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_trayIconDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 33</value>
+  </data>
+  <data name="button_changeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="&gt;&gt;colorDialog_taskbarIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_vs3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="radioButton_menu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="radioButton_vs2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="groupBox_mdiBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label_layoutDescription.Parent" xml:space="preserve">
+    <value>groupBox_mdiWindowLayout</value>
+  </data>
+  <data name="label_warningTrayIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font3.Parent" xml:space="preserve">
+    <value>groupBox_font</value>
+  </data>
+  <data name="menuStrip_pre5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <data name="radioButton_vs2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_titlePreset.Name" xml:space="preserve">
+    <value>label_titlePreset</value>
+  </data>
+  <data name="&gt;&gt;label_layout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIconShutdown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_ok.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_reset.Text" xml:space="preserve">
+    <value>Reset to defaults</value>
+  </data>
+  <data name="radioButton_font2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="&gt;&gt;label_titleMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_warningTrayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox_mdiBackground.Text" xml:space="preserve">
+    <value>Program Groups Background</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 112</value>
+  </data>
+  <data name="radioButton_langDefault.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;groupBox_menuBarStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_startupLayout.Items" xml:space="preserve">
+    <value>Cascade</value>
+  </data>
+  <data name="comboBox_imageLayout.Items" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="button_pre1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 50</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;panel_color.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip_pre1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_language.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="label_warningTrayIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 210</value>
+  </data>
+  <data name="label_pre3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_titleBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button_cancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font0.Parent" xml:space="preserve">
+    <value>groupBox_font</value>
+  </data>
+  <data name="&gt;&gt;label_pre4.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;checkBox_topMost.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_menu0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;groupBox_language.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_titleMenu.Name" xml:space="preserve">
+    <value>label_titleMenu</value>
+  </data>
+  <data name="&gt;&gt;label_pre1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_imageLayout.Items2" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="label_warningPresets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="button_pre2.Text" xml:space="preserve">
+    <value>Aero</value>
+  </data>
+  <data name="label_trayIconDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 27</value>
+  </data>
+  <data name="radioButton_font2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDefault.Parent" xml:space="preserve">
+    <value>groupBox_language</value>
+  </data>
+  <data name="&gt;&gt;groupBox_topMost.Parent" xml:space="preserve">
+    <value>tabPage_application</value>
+  </data>
+  <data name="&gt;&gt;comboBox_startupLayout.Parent" xml:space="preserve">
+    <value>groupBox_mdiWindowLayout</value>
+  </data>
+  <data name="&gt;&gt;checkBox_programGroupsTransparent.Name" xml:space="preserve">
+    <value>checkBox_programGroupsTransparent</value>
+  </data>
+  <data name="&gt;&gt;button_changeTColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_titlePreset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="radioButton_menu3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;checkBox_taskbarIconShutdown.Name" xml:space="preserve">
+    <value>checkBox_taskbarIconShutdown</value>
+  </data>
+  <data name="&gt;&gt;groupBox_background.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPage_trayIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button_addToUserStartup.Parent" xml:space="preserve">
+    <value>tabPage_autostart</value>
+  </data>
+  <data name="&gt;&gt;button_pre1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton_font3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 18</value>
+  </data>
+  <data name="radioButton_langDE.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;label_startupDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showBackgroundImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_titleMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 24</value>
+  </data>
+  <data name="&gt;&gt;button_apply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_startupDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 120</value>
+  </data>
+  <data name="label_titleBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label_pre2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_langDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="tabControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="label_warningFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 262</value>
+  </data>
+  <data name="comboBox_startupLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox_mdiWindowLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 145</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_listView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_openGlobalStartup.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="panel_color.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu2.Parent" xml:space="preserve">
+    <value>groupBox_menuBarStyle</value>
+  </data>
+  <data name="panel_pre3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label_pre2.Parent" xml:space="preserve">
+    <value>tabPage_presets</value>
+  </data>
+  <data name="&gt;&gt;radioButton_font3.Name" xml:space="preserve">
+    <value>radioButton_font3</value>
+  </data>
+  <data name="tabPage_application.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="panel_pre3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 110</value>
+  </data>
+  <data name="&gt;&gt;panel_optionsSelect.Parent" xml:space="preserve">
+    <value>tabPage_workspace</value>
+  </data>
+  <data name="label_pre5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 175</value>
+  </data>
+  <data name="&gt;&gt;label_pre3.Name" xml:space="preserve">
+    <value>label_pre3</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 340</value>
+  </data>
+  <data name="&gt;&gt;radioButton_menu3.Parent" xml:space="preserve">
+    <value>groupBox_menuBarStyle</value>
+  </data>
+  <data name="&gt;&gt;panel_color.Name" xml:space="preserve">
+    <value>panel_color</value>
+  </data>
+  <data name="label_titlePreset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox_visualStyle.Name" xml:space="preserve">
+    <value>groupBox_visualStyle</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 46</value>
+  </data>
+  <data name="button_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;groupBox_topMost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_pre2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 85</value>
+  </data>
+  <data name="&gt;&gt;label_titlePreset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_pre1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_renderMode.Text" xml:space="preserve">
+    <value>Workspace Render Mode:</value>
+  </data>
+  <data name="menuStrip_pre1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <data name="menuStrip_pre5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 125</value>
+  </data>
+  <data name="radioButton_vs0.Text" xml:space="preserve">
+    <value>All System</value>
+  </data>
+  <data name="&gt;&gt;radioButton_langDE.Parent" xml:space="preserve">
+    <value>groupBox_language</value>
+  </data>
+  <data name="&gt;&gt;button_pre5.Name" xml:space="preserve">
+    <value>button_pre5</value>
+  </data>
+  <data name="label_titleVisualStyle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label_warningRenderMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 32</value>
+  </data>
+  <data name="button_changeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label_color.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;groupBox_visualStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_mdiWindowLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showBackgroundImage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_pre4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Portable Network Graphics|*.png|JPEG Files|*.jpg; *.jpeg|Bitmaps|*.bmp|Graphics Interchangable Format|*.gif|Icons|*.ico|All Image Files|*.png; *.jpg; *.jpeg; *.bmp; *.gif; *.ico</value>
+  </data>
+  <data name="&gt;&gt;label_titleBackground.Name" xml:space="preserve">
+    <value>label_titleBackground</value>
+  </data>
+  <data name="groupBox_font.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="radioButton_langDE.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_workspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_apply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButton_vs0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_pre4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox_menuBarStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 6</value>
+  </data>
+  <data name="button_pre4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="menuStrip_pre4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>de</value>
+  </metadata>
+  <metadata name="menuStrip_pre3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>540, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colorDialog_taskbarIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>954, 17</value>
+  </metadata>
+  <metadata name="menuStrip_pre2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>402, 17</value>
+  </metadata>
+  <metadata name="menuStrip_pre4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>678, 17</value>
+  </metadata>
+  <metadata name="menuStrip_pre1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>264, 17</value>
+  </metadata>
+  <metadata name="menuStrip_pre5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>816, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>71</value>
+  </metadata>
+</root>

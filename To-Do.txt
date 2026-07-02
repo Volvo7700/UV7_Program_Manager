@@ -1,0 +1,71 @@
+﻿TO-DOs
+ - Config
+    OK Sometimes wrong Order when tiling windows h/v
+    - only tile prog forms, no prop/error form
+ - Better (More) Error Handling
+ - Tile/Large Icon View Toggle
+ - Installer
+ 
+ ? Startup registration only works in debug mode
+
+
+ 5 Localization : https://www.youtube.com/watch?v=D5cUhEXu8Jg
+
+ X Link Cursor
+ X Icons
+ / Icons for Program Groups
+ / Background Images for Program Groups
+ / customizable default prog window size
+ 8 Shutdown/Logoff: Session End/Pause Control
+ 8.2006 Easter egg
+ 9 Transparent Prog Window Background
+11 Credits to libraries
+ X Fix status bar
+ / Desktop Transparency Mode : Use desktop image as 1:1 background
+
+ - Unification of similar Methods (e.g. StartSelected() in OLV, Form_prog and TrayIcon)
+ - Recognition of CLI Args
+12 Recognition of Admin Flag of Shortcuts
+ - Recognition of Admin Flag of Programs
+ - Strange "control can't be transparent error" when running Release Build in Desktop Mode without config
+ - Command Line Args Issues
+ - Index mismatch on MDI Application Start
+ - No ListView Icons
+ - Loading of .lnk icons sometimes fails (Error 3 Len 53... in Console)
+ - No .url Icons
+ - Language Selection does not work
+12 Changes to Render Mode without restart cause crashes
+12 Preset Selection needs to refresh Preferences Window's config data to avoid confusion
+ - Dark Mode issues with Menu Bar due to hardcoded renderer colors
+ - Better transparency method (LVS_EX_TRANSPARENTBKGND)
+ - Windows Defender false detection
+
+10 FRICKIN DESKTOP SHELL MODE   
+
+ShellIcon
+Form_start
+
+0.0.1   OK  First Build
+0.0.2   OK  More Stable, mostly working Features
+0.0.3   OK  Error Report, URL File Support, Folder Support, Config Presets, Startup Registration
+            OK            X                 X               OK              OK
+0.0.4   OK  Bugs and Additions
+0.0.5   OK  Localization Update
+0.0.6   OK  Bugs and Bees (small things) Update + Installer
+0.0.7   OK  URL File Support
+0.0.8   OK  Load Optimization and other small bugs, Shutdown Dialog
+0.0.9       Customizability Update: More Icons and Images? | Transparent Background and Color Apply Mode
+1.0.0   OK  Fully functional and customizable Program Manager with FRICKIN DESKTOP SHELL MODE
+			Desktop Shell Mode, more backgrounds, desktop transparency mode
+1.0.1   //  Tray Icon
+1.1.0   OK  Rewrite/Code Cleanup, ListView Mode, Config Loader Overhaul
+1.2.0   ->  Several small fixes, Preferences improvements, Admin flag recognition
+
+
+Credits
+ - NativeListView               https://www.codeproject.com/Articles/18858/Fully-themed-Windows-Vista-Controls
+ - NativeToolStrip              https://github.com/AlexxEG/DropDownButton/blob/master/NativeToolStripRenderer.cs
+ - MDIClient without Borders    https://stackoverflow.com/questions/7752696/how-to-remove-3d-border-sunken-from-mdiclient-component-in-mdi-parent-form
+ - ShellLink                    https://github.com/tolik-punkoff/ShellLink-by-vbaccelerator
+ - INIFile                      https://stackoverflow.com/a/14906422
+ - IconUtil                     https://stackoverflow.com/a/33156333

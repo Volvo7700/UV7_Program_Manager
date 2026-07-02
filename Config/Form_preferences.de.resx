@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button_restart.Text" xml:space="preserve">
+    <value>Neustart</value>
+  </data>
+  <data name="button_reset.Text" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="button_cancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="button_apply.Text" xml:space="preserve">
+    <value>Übernehmen</value>
+  </data>
+  <data name="tabPage_presets.Text" xml:space="preserve">
+    <value>Voreinstellungen</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_titlePreset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label_titlePreset.Text" xml:space="preserve">
+    <value>Voreinstellung</value>
+  </data>
+  <data name="label_warningPresets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 224</value>
+  </data>
+  <data name="label_warningPresets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 13</value>
+  </data>
+  <data name="label_warningPresets.Text" xml:space="preserve">
+    <value>Änderungen werden unmittelbar ohne Bestätigung übernommen!</value>
+  </data>
+  <data name="label_titleVisualStyle.Text" xml:space="preserve">
+    <value>Visueller Stil</value>
+  </data>
+  <data name="label_titleBackground.Text" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="label_titleMenu.Text" xml:space="preserve">
+    <value>Menüleistenstil</value>
+  </data>
+  <data name="button_pre5.Text" xml:space="preserve">
+    <value>Klassisch</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 214</value>
+  </data>
+  <data name="tabPage_autostart.Text" xml:space="preserve">
+    <value>Autostart</value>
+  </data>
+  <data name="button_openGlobalStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 208</value>
+  </data>
+  <data name="button_openGlobalStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 40</value>
+  </data>
+  <data name="button_openGlobalStartup.Text" xml:space="preserve">
+    <value>Für Administratoren: Globales Autostart-Verzeichnis öffnen</value>
+  </data>
+  <data name="button_openUserStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 150</value>
+  </data>
+  <data name="button_openUserStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 40</value>
+  </data>
+  <data name="button_openUserStartup.Text" xml:space="preserve">
+    <value>Autostart-Verzeichnis für diesen Benutzer öffnen</value>
+  </data>
+  <data name="button_addToUserStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="button_addToUserStartup.Text" xml:space="preserve">
+    <value>Eintrag für diesen Benutzer hinzufügen</value>
+  </data>
+  <data name="label_startupDescription.Text" xml:space="preserve">
+    <value>Die Anwendung kann automatisch nach der Anmeldung gestartet werden.
+
+Das wird ermöglicht, indem man eine Verknüpfung im Autostart-Verzeichnis des aktuellen Benutzers erstellt.
+
+Um das Programm automatisch zu starten, drücken Sie bitte "Eintrag hinzufügen".
+
+Um das Programm nicht mehr automatisch zu starten, entfernen Sie bitte die Verknüpfung aus dem Autostart-Ordner.</value>
+  </data>
+  <data name="tabPage_workspace.Text" xml:space="preserve">
+    <value>Arbeitsbereich</value>
+  </data>
+  <data name="label_warningRenderMode.Text" xml:space="preserve">
+    <value>Sofortiger Neustart bei Änderung erforderlich!</value>
+  </data>
+  <data name="groupBox_mdiWindowLayout.Text" xml:space="preserve">
+    <value>Fensterlayout</value>
+  </data>
+  <data name="label_layoutDescription.Text" xml:space="preserve">
+    <value>Beim Programmstart Gruppen mit folgendem Layout laden:</value>
+  </data>
+  <data name="groupBox_mdiBackground.Text" xml:space="preserve">
+    <value>Programmgruppen-Hintergrund</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox_whiteFont.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox_whiteFont.Text" xml:space="preserve">
+    <value>Weiße Textfarbe verwenden (für dunkle Hintergründe)</value>
+  </data>
+  <data name="checkBox_programGroupsTransparent.Text" xml:space="preserve">
+    <value>Hintergrundfarbe ignorieren, stattdessen Programmgruppen durchsichtig machen</value>
+  </data>
+  <data name="checkBox_programGroupsApplyColor.Text" xml:space="preserve">
+    <value>Hintergrundfarbe auf Programmgruppen anwenden</value>
+  </data>
+  <data name="label_renderModeDescription.Text" xml:space="preserve">
+    <value>MDI: Ein Fenster pro Programmgruppe
+List View: Eine Liste, gruppiert nach Programmgruppe</value>
+  </data>
+  <data name="label_renderMode.Text" xml:space="preserve">
+    <value>Arbeitsbereich-Anzeigemodus:</value>
+  </data>
+  <data name="groupBox_background.Text" xml:space="preserve">
+    <value>Arbeitsbereich-Darstellung</value>
+  </data>
+  <data name="label_imageDescription.Text" xml:space="preserve">
+    <value>Das Hintergrundbild wird in einer Datei im Programmverzeichnis gespeichert.
+Man kann das Bild entweder ändern, indem man hier ein neues auswählt, oder indem man die Datei ersetzt.
+
+Dateiname: background (ohne Endung)</value>
+  </data>
+  <data name="label_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label_color.Text" xml:space="preserve">
+    <value>Farbe:</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 18</value>
+  </data>
+  <data name="checkBox_showBackgroundImage.Text" xml:space="preserve">
+    <value>Bild anzeigen</value>
+  </data>
+  <data name="button_changeImage.Text" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="button_changeColor.Text" xml:space="preserve">
+    <value>Anpassen</value>
+  </data>
+  <data name="tabPage_application.Text" xml:space="preserve">
+    <value>Programm</value>
+  </data>
+  <data name="label_warningFont.Text" xml:space="preserve">
+    <value>Rote Gruppen: Änderungen werden angewandt nach Programmneustart</value>
+  </data>
+  <data name="groupBox_font.Text" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>DWM-Darstellung</value>
+  </data>
+  <data name="checkBox_desktopCompositing.Text" xml:space="preserve">
+    <value>Desktopkomposition deaktivieren /
+Basis-Design benutzen</value>
+  </data>
+  <data name="groupBox_language.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="radioButton_langDefault.Text" xml:space="preserve">
+    <value>English / Englisch</value>
+  </data>
+  <data name="groupBox_menuBarStyle.Text" xml:space="preserve">
+    <value>Menüleistenstil</value>
+  </data>
+  <data name="groupBox_topMost.Text" xml:space="preserve">
+    <value>Sichtbarkeit</value>
+  </data>
+  <data name="checkBox_topMost.Text" xml:space="preserve">
+    <value>Als oberstes Fenster anzeigen</value>
+  </data>
+  <data name="groupBox_visualStyle.Text" xml:space="preserve">
+    <value>Visueller Stil</value>
+  </data>
+  <data name="radioButton_vs3.Text" xml:space="preserve">
+    <value>Klassisch</value>
+  </data>
+  <data name="radioButton_vs2.Text" xml:space="preserve">
+    <value>Fenster Klassisch, Rahmen System</value>
+  </data>
+  <data name="radioButton_vs1.Text" xml:space="preserve">
+    <value>Fenster System, Rahmen Klassisch</value>
+  </data>
+  <data name="radioButton_vs0.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="tabPage_trayIcon.Text" xml:space="preserve">
+    <value>Taskleistensymbol</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 112</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 24</value>
+  </data>
+  <data name="checkBox_taskbarIconShutdown.Text" xml:space="preserve">
+    <value>Herunterfahren-Symbol anzeigen</value>
+  </data>
+  <data name="label_trayIconColor.Text" xml:space="preserve">
+    <value>Farbe:</value>
+  </data>
+  <data name="label_trayIconDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 48</value>
+  </data>
+  <data name="label_trayIconDescription.Text" xml:space="preserve">
+    <value>Das Programm kann ein Symbol in den Benachrichtigungsbereich der Taskleiste hinzufügen. Das Symbol bietet einen schnellen Zugriff auf alle Programmgruppen in einem Dropdown-Menü.</value>
+  </data>
+  <data name="button_changeTColor.Text" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="checkBox_taskbarIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 78</value>
+  </data>
+  <data name="checkBox_taskbarIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 30</value>
+  </data>
+  <data name="checkBox_taskbarIcon.Text" xml:space="preserve">
+    <value>Taskleistensymbol aktivieren</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 214</value>
+  </data>
+  <data name="label_warningTrayIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 210</value>
+  </data>
+  <data name="label_warningTrayIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 40</value>
+  </data>
+  <data name="label_warningTrayIcon.Text" xml:space="preserve">
+    <value>Aktivierung/Deaktivierung wird nach Neustart übernommen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+</root>

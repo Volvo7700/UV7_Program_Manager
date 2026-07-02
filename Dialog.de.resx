@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Config.ImageLoadError" xml:space="preserve">
+    <value>Fehler beim Laden vom Hintergrundbild
+
+Detaillierte Fehlerinformationen:
+</value>
+  </data>
+  <data name="Config.ImageLoadErrorTitle" xml:space="preserve">
+    <value>UV7 Program Manager: Bildladefehler</value>
+  </data>
+  <data name="Config.ImmediateRestartRequired" xml:space="preserve">
+    <value>Die angegebenen Änderungen erfordern einen sofortigen Programmneustart.
+Möchten sie die Änderungen übernehmen?
+
+Ja: Änderungen übernehmen und neu starten
+Nein: Änderungen rückgängig machen</value>
+  </data>
+  <data name="Config.ImmediateRestartRequiredTitle" xml:space="preserve">
+    <value>Neustart erforderlich</value>
+  </data>
+  <data name="Config.LoadError" xml:space="preserve">
+    <value>{0} Konfigurationsdateien konnten nicht geladen werden
+Durch Standardeinstellungen ersetzen?
+
+Ja: Fehlerhafte Einträge mit Standardeinstellungen ersetzen
+Nein: Standardeinstellungen laden
+Abbrechen: Programm schließen
+
+Fehler:
+{1}</value>
+  </data>
+  <data name="Config.LoadErrorTitle" xml:space="preserve">
+    <value>UV7 Program Manager: Fehler beim Laden der Konfigurationsdatei</value>
+  </data>
+  <data name="Config.SaveError" xml:space="preserve">
+    <value>Der Eintrag {0} der Konfigurationsdatei konnte nicht gespeichert werden.
+Erneut versuchen?
+
+Detaillierte Fehlerinformation:
+{1}</value>
+  </data>
+  <data name="Config.SaveErrorTitle" xml:space="preserve">
+    <value>UV7 Program Manager: Fehler beim Speichern der Konfigurationsdatei</value>
+  </data>
+  <data name="Main.Load" xml:space="preserve">
+    <value>UV7 Program Manager - Laden...</value>
+  </data>
+  <data name="Main.MajorLoadError" xml:space="preserve">
+    <value>Ein schwerwiegender Fehler ist beim Laden der Programmgruppen aufgetreten. 
+Erneut versuchen?
+
+Detaillierte Fehlerinformationen:
+</value>
+  </data>
+  <data name="Main.MajorLoadErrorTitle" xml:space="preserve">
+    <value>Programmgruppen-Ladefehler</value>
+  </data>
+  <data name="Main.StatusStrip.Error" xml:space="preserve">
+    <value> Programm konnte nicht geladen werden</value>
+  </data>
+  <data name="Main.StatusStrip.Errors" xml:space="preserve">
+    <value> Programme konnten nicht geladen werden</value>
+  </data>
+  <data name="Main.StatusStrip.Groups" xml:space="preserve">
+    <value> Gruppen</value>
+  </data>
+  <data name="Main.StatusStrip.Load" xml:space="preserve">
+    <value>Programmgruppen werden geladen...</value>
+  </data>
+  <data name="Main.StatusStrip.LoadFinished" xml:space="preserve">
+    <value>Programmgruppen geladen</value>
+  </data>
+  <data name="Main.StatusStrip.MajorErrors" xml:space="preserve">
+    <value>Programmgruppen mit {0} schwerwiegenden Fehlern geladen</value>
+  </data>
+  <data name="Main.StatusStrip.Programs" xml:space="preserve">
+    <value> Programme</value>
+  </data>
+  <data name="Preferences.CopyErrorTitle" xml:space="preserve">
+    <value>Fehler beim Kopiervorgang</value>
+  </data>
+  <data name="Preferences.ResetConfirm" xml:space="preserve">
+    <value>Sind sie sicher, dass sie die Konfiguration zurücksetzen möchten?</value>
+  </data>
+  <data name="Preferences.ResetConfirmTitle" xml:space="preserve">
+    <value>Konfiguration zurücksetzen</value>
+  </data>
+  <data name="Prog.ShortcutDeleteError" xml:space="preserve">
+    <value>{0}
+
+Detaillierte Fehlerinformationen:
+{1}</value>
+  </data>
+  <data name="Prog.ShortcutDeleteErrorTitle" xml:space="preserve">
+    <value>Fehler beim Löschen der Verknüpfung</value>
+  </data>
+  <data name="Prog.ShortcutFileNotFound" xml:space="preserve">
+    <value>Das Element "{0}", auf das sich die Verknüpfung bezieht, wurde verändert oder verschoben.
+
+Soll die Verknüpfung gelöscht werden?</value>
+  </data>
+  <data name="Prog.ShortcutFileNotFoundTitle" xml:space="preserve">
+    <value>Verknüpfungsproblem</value>
+  </data>
+  <data name="TaskbarIcon.Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="TaskbarIcon.QuickLaunch" xml:space="preserve">
+    <value>UV7 Program Manager - Schnellstart</value>
+  </data>
+  <data name="TaskbarIcon.ShutDown" xml:space="preserve">
+    <value>Windows herunterfahren...</value>
+  </data>
+</root>
