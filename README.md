@@ -1,4 +1,4 @@
-# UV7 Program Manager (Rewrite Version)
+# UV7 Program Manager
 
 UV7 Program Manager is a Program Manager inspired by Windows 3.x. It can be used to organize important programs and/or as an alternative to the Windows start menu.
 
