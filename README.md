@@ -7,6 +7,7 @@ UV7 Program Manager is a Program Manager inspired by Windows 3.x. It can be used
 * Common format: Each program groups is defined by its own folder with shortcuts (LNK files) to the programs
 * Desktop Mode: Use the program as a replacement for traditional, badly organized icons on the desktop
 * Tray Icon: Fast access to program list via context menu
+* Customizable Color and Background, Light and Dark mode supported
 
 ## Usecase
 * As a Dashboard: Show all needed information at a glance on one screen
